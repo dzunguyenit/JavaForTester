@@ -1,4 +1,4 @@
-package arrayAndString;
+package array;
 
 public class ForEachArray {
 	public static void main(String args[]) {
