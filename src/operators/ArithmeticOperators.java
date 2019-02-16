@@ -1,6 +1,6 @@
 package operators;
 
-public class BasicOperators {
+public class ArithmeticOperators {
 
 	public static void main(String args[]) {
 		int add, subtract, multi, div, mod, increase, decrease;
