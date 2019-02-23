@@ -10,18 +10,22 @@ public class AssignmentOperators {
 		c = a + b;
 		System.out.println("c = a + b : " + c);
 
+		// c = 30 + 10 = 40;
+
 		c += a;
 		System.out.println("c += a : " + c);
 
+		// c = 40 - 10 = 30;
 		c -= a;
 		System.out.println("c -= a : " + c);
-
+		// c = 30 * 10 = 300;
 		c *= a;
 		System.out.println("c *= a : " + c);
-
+		// c = 300 / 10 = 30;
 		c /= a;
 		System.out.println("c /= a : " + c);
 
+		// c = 30 % 10 = 30;
 		c %= a;
 		System.out.println("c %= a : " + c);
 	}
