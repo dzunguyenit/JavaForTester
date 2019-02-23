@@ -27,11 +27,13 @@ public class ArithmeticOperators {
 		System.out.println("b % a = " + mod);
 
 		// Tang 1 don vi
-		increase = b++;
+		b++;
+		increase = b;
 		System.out.println("b++ = " + increase);
 
 		// Giam 1 don vi
-		decrease = b--;
+		b--;
+		decrease = b;
 		System.out.println("b-- = " + decrease);
 	}
 
