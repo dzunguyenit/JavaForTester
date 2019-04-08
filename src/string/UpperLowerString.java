@@ -2,7 +2,7 @@ package string;
 
 public class UpperLowerString {
 	public static void main(String args[]) {
-		String text = "I Love You Baby";
+		String text = "I Love My Family";
 		String lowerText = text.toLowerCase();
 		String upperText = text.toUpperCase();
 
