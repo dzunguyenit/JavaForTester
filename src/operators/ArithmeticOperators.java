@@ -4,7 +4,7 @@ public class ArithmeticOperators {
 
 	public static void main(String args[]) {
 		int add, subtract, multi, div, mod, increase, decrease;
-		int a = 10, b = 15;
+		int a = 10, b = 15, c = 20, d = 25;
 
 		// Phep cong
 		add = a + b;
@@ -27,13 +27,13 @@ public class ArithmeticOperators {
 		System.out.println("b % a = " + mod);
 
 		// Tang 1 don vi
-		b++;
-		increase = b;
+		c++;
+		increase = c;
 		System.out.println("b++ = " + increase);
 
 		// Giam 1 don vi
-		b--;
-		decrease = b;
+		d--;
+		decrease = d;
 		System.out.println("b-- = " + decrease);
 	}
 
