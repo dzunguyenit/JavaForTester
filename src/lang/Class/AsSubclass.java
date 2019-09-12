@@ -1,21 +1,22 @@
 package lang.Class;
 
 public class AsSubclass {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 
 		try {
-			AsSubclass cls = new AsSubclass();
+			AsSubclass asSubclass = new AsSubclass();
 			AsSubclass subcls = new SubClass1();
 
 			// class ClassDemo
-			Class c = cls.getClass();
+			Class c = asSubclass.getClass();
 			System.out.println(c);
 
 			// sub class SubClass1
 			Class c1 = subcls.getClass();
 			System.out.println(c1);
 
-			// represent a subclass of the specified class object
+//			// represent a subclass of the specified class object
 			Class retval = c1.asSubclass(c);
 
 			System.out.println(retval);
