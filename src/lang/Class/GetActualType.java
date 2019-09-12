@@ -4,7 +4,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
-public class ClassgetGenericSuperClassExample2 {
+public class GetActualType {
 	public static void main(String args[]) {
 
 		Type tp1 = Float1.class.getGenericSuperclass();
