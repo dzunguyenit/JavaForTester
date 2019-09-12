@@ -16,6 +16,9 @@ public class AsSubclass {
 			Class c1 = subcls.getClass();
 			System.out.println(c1);
 
+			Class d = subcls.getClass();
+			System.out.println("Superclass = " + d.getSuperclass());
+
 //			// represent a subclass of the specified class object
 			Class retval = c1.asSubclass(c);
 
