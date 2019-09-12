@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 
 public class GetField {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 
 		GetField c = new GetField();

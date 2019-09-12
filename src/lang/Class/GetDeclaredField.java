@@ -13,26 +13,33 @@ public class GetDeclaredField {
 
 			// field long l
 			Field[] fields = cls.getDeclaredFields();
-			System.out.println("Field = " + fields.toString());
+
+			for (Field field : fields) {
+				System.out.println("Field = " + field.toString());
+			}
+
 		} catch (Exception e) {
 			System.out.println(e.toString());
 		}
 	}
 
-	private int a;
-	private int b;
-	private int c;
+	@SuppressWarnings("unused")
+	private int huynh = 8;
+	@SuppressWarnings("unused")
+	private int thanh = 9;
+	@SuppressWarnings("unused")
+	private int vu = 10;
 
 	public GetDeclaredField() {
 		// no argument constructor
 	}
 
-	public GetDeclaredField(long l, int a, int b, int c) {
-		this.l = l;
-		this.a = a;
-		this.b = b;
-		this.c = c;
+	public GetDeclaredField(long nguyen, int huynh, int thanh, int vu) {
+		this.nguyen = nguyen;
+		this.huynh = huynh;
+		this.thanh = thanh;
+		this.vu = vu;
 	}
 
-	long l = 77688;
+	long nguyen = 7;
 }
