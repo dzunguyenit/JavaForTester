@@ -14,7 +14,7 @@ public class GetField {
 
 		try {
 			// string field
-			Field sField = cls.getField("string1");
+			Field sField = cls.getField("a");
 			Field sField2 = cls.getField("string2");
 			System.out.println("Public field1 found: " + sField.toString());
 			System.out.println("Public field2 found: " + sField2.toString());
@@ -27,11 +27,11 @@ public class GetField {
 		// no argument constructor
 	}
 
-	public GetField(String string1, String string2) {
-		this.string1 = string1;
+	public GetField(int a, String string2) {
+		this.a = a;
 		this.string2 = string2;
 	}
 
-	public String string1 = "tutorialspoint";
+	public int a = 123;
 	public String string2 = "vunguyen";
 }
