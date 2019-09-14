@@ -1,22 +1,22 @@
 package lang.Class;
 
-public class AsSubclass {
+public class ParentClass {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 
 		try {
-			AsSubclass asSubclass = new AsSubclass();
-			AsSubclass subcls = new SubClass1();
+			ParentClass parentClass = new ParentClass();
+			ParentClass subClass = new SubClass();
 
 			// class ClassDemo
-			Class c = asSubclass.getClass();
+			Class c = parentClass.getClass();
 			System.out.println(c);
 
 			// sub class SubClass1
-			Class c1 = subcls.getClass();
+			Class c1 = subClass.getClass();
 			System.out.println(c1);
 
-			Class d = subcls.getClass();
+			Class d = subClass.getClass();
 			System.out.println("Superclass = " + d.getSuperclass());
 
 //			// represent a subclass of the specified class object
@@ -29,6 +29,6 @@ public class AsSubclass {
 	}
 }
 
-class SubClass1 extends AsSubclass {
+class SubClass extends ParentClass {
 	// sub class
 }
