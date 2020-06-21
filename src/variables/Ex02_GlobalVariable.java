@@ -2,12 +2,17 @@ package variables;
 
 public class Ex02_GlobalVariable {
 	static int age = 10;
+	static int gender = 10;
 
 	public void dogAge() {
-		System.out.println("Dog age is : ");
+
+		int gender = 0;
+		System.out.println("Age = " + age);
+		System.out.println("Gender is : " + gender);
 	}
 
 	public void dogAge2() {
+		System.out.println("Gender is : " + gender);
 		System.out.println("Dog age is : " + age);
 	}
 

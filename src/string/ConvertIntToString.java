@@ -10,6 +10,8 @@ public class ConvertIntToString {
 		String herMoney = text2.substring(12, 14);
 		System.out.println("Her money = " + herMoney);
 
+		System.out.println("Sum money text = " + myMoney + herMoney);
+		
 		int sumMoney = Integer.parseInt(myMoney) + Integer.parseInt(herMoney);
 		System.out.println("Sum money = " + sumMoney);
 

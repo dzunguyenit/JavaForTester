@@ -2,10 +2,10 @@ package decisionMaking;
 
 public class IfStatement {
 	public static void main(String args[]) {
-		int x = 10;
+		int x = 37;
 
-		if (x < 20) {
-			System.out.print("This is if statement");
+		if (x == 37) {
+			System.out.print("Hot");
 		}
 	}
 }

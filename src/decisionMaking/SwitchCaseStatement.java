@@ -2,20 +2,20 @@ package decisionMaking;
 
 public class SwitchCaseStatement {
 	public static void main(String args[]) {
-		int degree = 21;
+		int degree = 14;
 
-		switch (degree) {
+		switch (degree + 1) {
 		case 0:
-			System.out.println("Very Cold!");
+			System.out.println("Very Cold! " + degree);
 			break;
 		case 15:
-			System.out.println("Cold!");
+			System.out.println("Cold! "+ degree);
 			break;
 		case 20:
-			System.out.println("Cool!");
+			System.out.println("Cool! "+ degree);
 			break;
 		default:
-			System.out.println("Hot!");
+			System.out.println("Hot! " + degree);
 		}
 	}
 }

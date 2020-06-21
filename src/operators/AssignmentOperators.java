@@ -9,10 +9,14 @@ public class AssignmentOperators {
 
 		c = a + b;
 		System.out.println("c = a + b : " + c);
+		
+		
+		// 30 + 10
 
 		// c = 30 + 10 = 40;
 
 		c += a;
+		
 		System.out.println("c += a : " + c);
 
 		// c = 40 - 10 = 30;

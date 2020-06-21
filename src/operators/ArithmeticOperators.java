@@ -29,12 +29,12 @@ public class ArithmeticOperators {
 		// Tang 1 don vi
 		c++;
 		increase = c;
-		System.out.println("b++ = " + increase);
+		System.out.println("c++ = " + increase);
 
 		// Giam 1 don vi
 		d--;
 		decrease = d;
-		System.out.println("b-- = " + decrease);
+		System.out.println("d-- = " + decrease);
 	}
 
 }

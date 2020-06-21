@@ -13,6 +13,7 @@ public class AccessHelloAnnotation {
 		HelloAnnotation annotation = method.getAnnotation(HelloAnnotation.class);
 
 		System.out.println("value is: " + annotation.value());
+		System.out.println("value is: " + annotation.value1());
 	}
 
 }
